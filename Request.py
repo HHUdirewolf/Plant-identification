@@ -3,6 +3,7 @@ import base64
 
 import json
 #方法
+#url是选中图片的绝对路径
 def BaiduAPI(url):
     #构造request对象
     request_url="https://aip.baidubce.com/rest/2.0/image-classify/v1/plant"
